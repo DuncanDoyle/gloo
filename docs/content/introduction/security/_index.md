@@ -19,7 +19,7 @@ External authentication is a Gloo Edge Enterprise feature. It is possible to imp
 
 ### Humans versus machines
 
-One of the key factors to consider when working with authentication is the consumer of the service. Humans and machines tend to authentication is different ways. A typical human authentication interaction would involved a redirect to an authentication provider, which would allow the human being to input credentials and receive an authentication token. The sections dealing with [external authentication]({{% versioned_link_path fromRoot="/guides/security/auth/extauth/" %}}) and building a custom authentication server can be useful for this context.
+One of the key factors to consider when working with authentication is the consumer of the service. Humans and machines tend to authentication in different ways. A typical human authentication interaction would involved a redirect to an authentication provider, which would allow the human being to input credentials and receive an authentication token. The sections dealing with [external authentication]({{% versioned_link_path fromRoot="/guides/security/auth/extauth/" %}}) and building a custom authentication server can be useful for this context.
 
 Machines are more likely to have a pre-provisioned authentication token using JSON Web Tokens. They will not be using a manual authentication process or be redirected to an Identity Provider. The section dealing with [JSON Web Tokens]({{% versioned_link_path fromRoot="/guides/security/auth/jwt/" %}}) can be useful when planning machine access. 
 
